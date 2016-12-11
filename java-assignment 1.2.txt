@@ -1,0 +1,23 @@
+package myPack;
+import java.util.*;
+import java.lang.Math;
+public class IntToString{
+	public static void main(String args[]){
+	int a=20;
+	int b= a-- - --a;
+	int c=a--;
+	int d=a>>2;
+	int e=a&b;
+	System.out.println("b is :"+b);
+	System.out.println("c is :"+c);
+	System.out.println("d is :"+d);
+	System.out.println("e is :"+e);
+	}
+
+}
+
+Output= 
+b is :2
+c is :18
+d is :4
+e is :0
